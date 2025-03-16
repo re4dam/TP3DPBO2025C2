@@ -26,7 +26,7 @@ Merupakan class yang mendeskripsikan ukuran penyimpanan untuk primary storage da
 ---
 ### CPU
 #### Overview
-Merupakan class yang mendeskripsikan Central Processing Unit dari sebuah Komputer. Class ini memiliki superclass yaitu Komponen.
+Merupakan class yang mendeskripsikan Central Processing Unit dari sebuah Komputer. Class ini merupakan subclass dari Komponen.
 #### Attributes
 * JumlahCore: Jumlah core dalam perangkat CPU tersebut.
 * KecepatanGHz: Kecepatan process/frekuensi dari CPU tersebut.
@@ -36,7 +36,7 @@ Merupakan class yang mendeskripsikan Central Processing Unit dari sebuah Kompute
 ---
 ### GPU
 #### Overview
-Merupakan class yang mendeskripsikan Graphics Processing Unit dari sebuah Komputer. Class ini memiliki superclass yaitu Komponen (untuk mendeskripsikan asal/merk perangkat tersebut) dan Memory (untuk mendeskripsikan kapasitas dari Memorynya).
+Merupakan class yang mendeskripsikan Graphics Processing Unit dari sebuah Komputer. Class ini merupakan subclass dari Komponen (untuk mendeskripsikan asal/merk perangkat tersebut) dan Memory (untuk mendeskripsikan kapasitas dari Memorynya).
 #### Attributes
 * Gddr: Jenis GDDR dari GPUnya (i.e. GDDR5, GDDR6)
 * Bandwidth: Kecepatan memory GPU untuk membaca dan menulis data.
@@ -46,7 +46,7 @@ Merupakan class yang mendeskripsikan Graphics Processing Unit dari sebuah Komput
 ---
 ### RAM
 #### Overview
-Merupakan class yang mendeskripsikan Random Access Memory (RAM) dari sebuah komputer. Class ini memiliki superclass yaitu Komponen (untuk mendeskripsikan asal/merk perangkat tersebut) dan Memory (untuk mendeskripsikan kapasitas dari Memorynya).
+Merupakan class yang mendeskripsikan Random Access Memory (RAM) dari sebuah komputer. Class ini merupakan subclass dari Komponen (untuk mendeskripsikan asal/merk perangkat tersebut) dan Memory (untuk mendeskripsikan kapasitas dari Memorynya).
 #### Attributes
 * ddr: Jenis DDR dari RAM (i.e. DDR3, DDR4, DDR5).
 #### Methods
