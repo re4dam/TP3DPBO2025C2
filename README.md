@@ -95,8 +95,19 @@ Merupakan class utama yang merepresentasikan sebuah komputer, yang terdiri dari 
 * Getter: Mengambil value dari atribut nama.
 * Setter: Memodifikasi value dari atribut nama.
 * TurnSwitchKipas(): Method untuk menyalakan atau mematikan kipas dalam sistem komputer.
----
 ## Penjelasan Alur
-get pranked
+1. Inisialisasi objek perangkat keras Komputer
+* Membuat komponen-komponen seperti CPU, RAM, Harddrive, Kipas
+2. Menginisiasi objek Komputer.
+* Dapat mengambil dari Komponen yang sebelumnya sudah dibuat, ataupun langsung dibuat dalam parameter Komputer.
+3. Menampilkan Informasi Komputer
+* Pemilik, CPU, GPU, Harddrive, dan Powersupply
+* Menampilkan RAM apa saja yang terinstall dalam komputer
+* Menampilkan kondisi Kipas-Kipas dalam Komputer yang mati sekarang
+4. Mengaktifkan Kipas Komputer
+* Menampilkan kondisi Kipas-Kipas dalam Komputer yang menyala sekarang
 ## Dokumentasi
-get pranked
+contoh dalam bentuk python
+![Python1](python/dokumentasi/python_1.png)
+![Python1](python/dokumentasi/python_2.png)
+![Python1](python/dokumentasi/python_3.png)
