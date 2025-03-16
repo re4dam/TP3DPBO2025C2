@@ -13,6 +13,7 @@ Merupakan class yang mendeskripsikan perangkat keras
 #### Methods
 * Getter: Mengambil value dari class tersebut. Berlaku untuk attribut Merk dan Nama
 * Setter: Memodifikasi value dari class tersebut. Berlaku untuk attribut Merk dan Nama
+---
 ### Memory
 #### Overview
 Merupakan class yang mendeskripsikan ukuran penyimpanan untuk primary storage dan juga mendeskripsikan kecepatan frekuensi atau clockspeed perangkat tersebut
@@ -22,6 +23,7 @@ Merupakan class yang mendeskripsikan ukuran penyimpanan untuk primary storage da
 #### Methods
 * Getter: Mengambil value dari class tersebut. Berlaku untuk attribut kapasitasGB dan kecepatanMHz
 * Setter: Memodifikasi value dari class tersebut. Berlaku untuk attribut kapasitasGB dan kecepatanMHz
+---
 ### CPU
 #### Overview
 Merupakan class yang mendeskripsikan Central Processing Unit dari sebuah Komputer. Class ini memiliki superclass yaitu Komponen.
@@ -31,6 +33,7 @@ Merupakan class yang mendeskripsikan Central Processing Unit dari sebuah Kompute
 #### Methods
 * Getter: Mengambil value dari class tersebut. Berlaku untuk attribut JumlahCore dan KecepatanGHz
 * Setter: Memodifikasi value dari class tersebut. Berlaku untuk attribut JumlahCore dan KecepatanGHz
+---
 ### GPU
 #### Overview
 Merupakan class yang mendeskripsikan Graphics Processing Unit dari sebuah Komputer. Class ini memiliki superclass yaitu Komponen (untuk mendeskripsikan asal/merk perangkat tersebut) dan Memory (untuk mendeskripsikan kapasitas dari Memorynya).
@@ -40,6 +43,7 @@ Merupakan class yang mendeskripsikan Graphics Processing Unit dari sebuah Komput
 #### Methods
 * Getter: Mengambil value dari class tersebut. Berlaku untuk attribut Gddr dan Bandwidth
 * Setter: Memodifikasi value dari class tersebut. Berlaku untuk attribut Gddr dan Bandwidth
+---
 ### RAM
 #### Overview
 Merupakan class yang mendeskripsikan Random Access Memory (RAM) dari sebuah komputer. Class ini memiliki superclass yaitu Komponen (untuk mendeskripsikan asal/merk perangkat tersebut) dan Memory (untuk mendeskripsikan kapasitas dari Memorynya).
@@ -48,6 +52,7 @@ Merupakan class yang mendeskripsikan Random Access Memory (RAM) dari sebuah komp
 #### Methods
 * Getter: Mengambil value dari atribut ddr.
 * Setter: Memodifikasi value dari atribut ddr.
+---
 ### Harddrive
 #### Overview
 Merupakan class yang mendeskripsikan perangkat penyimpanan sekunder (Hard Drive) dari sebuah komputer. Class ini merupakan subclass dari Komponen.
@@ -59,6 +64,7 @@ Merupakan class yang mendeskripsikan perangkat penyimpanan sekunder (Hard Drive)
 #### Methods
 * Getter: Mengambil value dari atribut kapasitasGB, kecepatanBacaMBps, kecepatanTulisMBps, dan interface.
 * Setter: Memodifikasi value dari atribut kapasitasGB, kecepatanBacaMBps, kecepatanTulisMBps, dan interface.
+---
 ### PowerSupply
 #### Overview
 Merupakan class yang mendeskripsikan unit power supply dari sebuah komputer. Class ini merupakan subclass dari Komponen.
@@ -67,6 +73,7 @@ Merupakan class yang mendeskripsikan unit power supply dari sebuah komputer. Cla
 #### Methods
 * Getter: Mengambil value dari atribut Watt.
 * Setter: Memodifikasi value dari atribut Watt.
+---
 ### Fan (Kipas)
 #### Overview
 Merupakan class yang mendeskripsikan kipas pendingin dalam sistem komputer.
@@ -76,6 +83,7 @@ Merupakan class yang mendeskripsikan kipas pendingin dalam sistem komputer.
 #### Methods
 * Getter: Mengambil value dari atribut Kecepatan dan Status.
 * Setter: Memodifikasi value dari atribut Kecepatan dan Status.
+---
 ### Komputer
 #### Overview
 Merupakan class utama yang merepresentasikan sebuah komputer, yang terdiri dari berbagai komponen seperti CPU, GPU, RAM, Harddrive, Kipas, dan PowerSupply. Komputer memiliki hubungan composition (has a) dengan perangkat yang telah disebut di atas. Untuk lebih spesifiknya:
@@ -87,6 +95,7 @@ Merupakan class utama yang merepresentasikan sebuah komputer, yang terdiri dari 
 * Getter: Mengambil value dari atribut nama.
 * Setter: Memodifikasi value dari atribut nama.
 * TurnSwitchKipas(): Method untuk menyalakan atau mematikan kipas dalam sistem komputer.
+---
 ## Penjelasan Alur
 get pranked
 ## Dokumentasi
