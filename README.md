@@ -42,7 +42,7 @@ Merupakan class yang mendeskripsikan Graphics Processing Unit dari sebuah Komput
 * Setter: Memodifikasi value dari class tersebut. Berlaku untuk attribut Gddr dan Bandwidth
 ### RAM
 #### Overview
-Merupakan class yang mendeskripsikan Random Access Memory (RAM) dari sebuah komputer. Class ini merupakan subclass dari Memory.
+Merupakan class yang mendeskripsikan Random Access Memory (RAM) dari sebuah komputer. Class ini memiliki superclass yaitu Komponen (untuk mendeskripsikan asal/merk perangkat tersebut) dan Memory (untuk mendeskripsikan kapasitas dari Memorynya).
 #### Attributes
 * ddr: Jenis DDR dari RAM (i.e. DDR3, DDR4, DDR5).
 #### Methods
@@ -78,7 +78,9 @@ Merupakan class yang mendeskripsikan kipas pendingin dalam sistem komputer.
 * Setter: Memodifikasi value dari atribut Kecepatan dan Status.
 ### Komputer
 #### Overview
-Merupakan class utama yang merepresentasikan sebuah komputer, yang terdiri dari berbagai komponen seperti CPU, GPU, RAM, Harddrive, dan PowerSupply.
+Merupakan class utama yang merepresentasikan sebuah komputer, yang terdiri dari berbagai komponen seperti CPU, GPU, RAM, Harddrive, Kipas, dan PowerSupply. Komputer memiliki hubungan composition (has a) dengan perangkat yang telah disebut di atas. Untuk lebih spesifiknya:
+* Komputer memiliki satu CPU, GPU, Harddrive, dan PowerSupply.
+* Komputer bisa memiliki lebih dari satu atau n untuk RAM dan Fan.
 #### Attributes
 * nama: Nama atau identifikasi komputer.
 #### Methods
